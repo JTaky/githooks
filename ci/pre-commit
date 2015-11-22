@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# execute gradle build to ensure that commit doesn't break build
+exec gradle

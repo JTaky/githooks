@@ -1,4 +1,8 @@
 #!/bin/sh
 
+cat <<\EOF
+Executing gradle build
+EOF
+
 # execute gradle build to ensure that commit doesn't break build
 exec gradle

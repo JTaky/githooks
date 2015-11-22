@@ -1,4 +1,10 @@
 #!/bin/sh
+#
+# Hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments. 
+# The hook should execute gradle build on the project.
+#
+# To enable this hook, rename this file to "pre-commit".
 
 cat <<\EOF
 	Executing gradle build
